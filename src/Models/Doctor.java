@@ -8,8 +8,6 @@ import Models.ResidentialInfo.ResidentialInfo;
 public class Doctor extends Employee {
     private ArrayList<Patient> _Patients;
 
-   
-
     public Doctor(String _Name, LocalDate _BDate, ResidentialInfo _ResidentialInfo, String _UserName, String _Password,
             Contract _Contract) 
     {
