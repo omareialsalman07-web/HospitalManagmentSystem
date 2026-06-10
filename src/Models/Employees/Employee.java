@@ -1,10 +1,12 @@
-package Models;
+package Models.Employees;
 
 import java.time.LocalDate;
-import Models.ResidentialInfo.ResidentialInfo;
+
+import Models.Base.User;
+import Models.Hopital.ResidentialInfo.ResidentialInfo;
 
 public class Employee extends User {
-    private Contract _Contract;
+    protected Contract _Contract;
 
     public Employee(String _Name, LocalDate _BDate, ResidentialInfo _ResidentialInfo, String _UserName,
             String _Password, Contract _Contract) 

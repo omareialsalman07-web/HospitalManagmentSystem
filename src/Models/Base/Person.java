@@ -1,9 +1,9 @@
-package Models;
+package Models.Base;
 
 import java.time.LocalDate;
 import java.time.Period;
 
-import Models.ResidentialInfo.ResidentialInfo;
+import Models.Hopital.ResidentialInfo.ResidentialInfo;
 
 public class Person {
     private String _FullName;

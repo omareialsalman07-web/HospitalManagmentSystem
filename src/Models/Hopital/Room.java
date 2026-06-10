@@ -1,4 +1,4 @@
-package Models;
+package Models.Hopital;
 
 public abstract class Room {
     private Section _Section;

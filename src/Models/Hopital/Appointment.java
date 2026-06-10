@@ -1,4 +1,4 @@
-package Models;
+package Models.Hopital;
 
 import java.time.LocalDateTime;
 

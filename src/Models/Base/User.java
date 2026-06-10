@@ -1,9 +1,10 @@
-package Models;
+package Models.Base;
 
 import java.time.LocalDate;
-import Models.ResidentialInfo.ResidentialInfo;
 
-public class User extends Person {
+import Models.Hopital.ResidentialInfo.ResidentialInfo;
+
+public abstract class User extends Person {
     private String _UserName;
     private String _Password;
 
