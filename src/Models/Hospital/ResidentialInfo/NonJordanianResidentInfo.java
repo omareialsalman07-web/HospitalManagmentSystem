@@ -1,4 +1,4 @@
-package Models.Hopital.ResidentialInfo;
+package Models.Hospital.ResidentialInfo;
 
 class NonJordanianResidentInfo implements ResidentialInfo {
     private String residenceNumber;

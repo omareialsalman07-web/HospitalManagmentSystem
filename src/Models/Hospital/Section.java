@@ -1,4 +1,4 @@
-package Models.Hopital;
+package Models.Hospital;
 
 import java.util.ArrayList;
 

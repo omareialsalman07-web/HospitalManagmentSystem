@@ -2,7 +2,7 @@ package Models.Employees;
 
 import java.time.LocalDate;
 
-import Models.Hopital.ResidentialInfo.ResidentialInfo;
+import Models.Hospital.ResidentialInfo.ResidentialInfo;
 
 public class Doctor extends Employee
 {

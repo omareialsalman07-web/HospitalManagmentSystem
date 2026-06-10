@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 import Models.Base.User;
 import Models.Enums.BloodType;
-import Models.Hopital.ResidentialInfo.ResidentialInfo;
+import Models.Hospital.ResidentialInfo.ResidentialInfo;
 
 public class Patient extends User {
 

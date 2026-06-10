@@ -1,4 +1,4 @@
-package Models.Hopital;
+package Models.Hospital;
 
 import java.util.ArrayList;
 
@@ -24,6 +24,12 @@ public class SharedRoom extends Room{
 
     public int get_MaxCapicity() {
         return _MaxCapicity;
+    }
+
+    @Override
+    public void addPatient(Patient p) throws Exception {
+        if (isFull()) throw new Exception("Room is full");
+        _Patients.add(p);
     }
 
     @Override

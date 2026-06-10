@@ -3,7 +3,7 @@ package Models.Base;
 import java.time.LocalDate;
 import java.time.Period;
 
-import Models.Hopital.ResidentialInfo.ResidentialInfo;
+import Models.Hospital.ResidentialInfo.ResidentialInfo;
 
 public class Person {
     private String _FullName;

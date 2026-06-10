@@ -1,20 +1,22 @@
-package Models.Hopital;
+package Models.Hospital;
+
+import Models.Patient;
 
 public abstract class Room {
     private Section _Section;
-    private int _Number;
+    private int _ID;
 
     public Room(Section _Section, int _Number) {
         this._Section = _Section;
-        this._Number = _Number;
+        this._ID = _Number;
     }
 
-    public int get_Number() {
-        return _Number;
+    public int get_ID() {
+        return _ID;
     }
 
-    public void set_Number(int _Number) {
-        this._Number = _Number;
+    public void set_ID(int _Number) {
+        this._ID = _Number;
     }
 
     public Section get_Section() {
@@ -25,6 +27,7 @@ public abstract class Room {
         this._Section = _Section;
     }
 
+    public abstract void addPatient(Patient p) throws Exception;
     public abstract boolean isBlank();
     public abstract boolean isFull();
 }

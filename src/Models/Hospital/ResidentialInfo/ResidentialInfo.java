@@ -1,4 +1,4 @@
-package Models.Hopital.ResidentialInfo;
+package Models.Hospital.ResidentialInfo;
 
 public interface ResidentialInfo {
     void validate();

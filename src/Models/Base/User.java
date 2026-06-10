@@ -2,7 +2,7 @@ package Models.Base;
 
 import java.time.LocalDate;
 
-import Models.Hopital.ResidentialInfo.ResidentialInfo;
+import Models.Hospital.ResidentialInfo.ResidentialInfo;
 
 public abstract class User extends Person {
     private String _UserName;

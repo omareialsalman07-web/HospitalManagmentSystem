@@ -3,7 +3,7 @@ package Models.Employees;
 import java.time.LocalDate;
 
 import Models.Base.User;
-import Models.Hopital.ResidentialInfo.ResidentialInfo;
+import Models.Hospital.ResidentialInfo.ResidentialInfo;
 
 public class Employee extends User {
     protected Contract _Contract;

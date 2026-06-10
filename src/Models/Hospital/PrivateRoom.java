@@ -1,4 +1,4 @@
-package Models.Hopital;
+package Models.Hospital;
 
 import Models.Patient;
 
@@ -17,6 +17,12 @@ public class PrivateRoom extends Room {
 
     public void set_Patient(Patient _Patient) {
         this._Patient = _Patient;
+    }
+
+    @Override
+    public void addPatient(Patient p) throws Exception {
+        if (!isBlank()) throw new Exception("Room is already occupied");
+        this._Patient = p;
     }
 
     @Override
